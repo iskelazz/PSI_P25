@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/snackbar"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/add_data"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/lanzar_noti"
+        android:icon="@android:drawable/ic_notification_overlay"
+        android:title="@string/add_data"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/noti_clear"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:title="@string/noti_clear" />
+    <item android:id="@+id/menu_toast"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="@string/toast" />
+</menu>
